@@ -1,0 +1,162 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #111;
+color: white;
+}
+
+header {
+text-align: center;
+padding: 50px;
+background: #222;
+}
+
+section {
+padding: 40px;
+border-bottom: 1px solid #333;
+}
+
+h1, h2 {
+color: #f5c542;
+}
+.profile-pic {
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid #f5c542;
+    object-fit: cover;
+    object-position: center 25%;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgba(245, 197, 66, 0.25);
+    transition: 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.03);
+}
+.project-card {
+    background: #1a1a1a;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-left: 4px solid #f5c542;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.project-card p {
+    color: #d0d0d0;
+    line-height: 1.6;
+}
+
+.tech-stack {
+    margin-top: 15px;
+}
+
+.tech-stack span {
+    display: inline-block;
+    background: #222;
+    color: #f5c542;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #f5c542;
+}
+nav {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #f5c542;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+.resume-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #f5c542;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #888;
+}
+header {
+    text-align: center;
+    padding: 60px;
+    background: #222;
+}
+
+.resume-btn {
+    display: inline-block;
+    margin-top: 25px;
+}
+#contact a {
+    color: #f5c542;
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+    transition: 0.3s;
+}
+.project-card a {
+    color: #f5c542;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: white;
+}
+#contact a:hover {
+    color: white;
+}
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.project-card {
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.tech-stack span:hover {
+    background: #f5c542;
+    color: black;
+    transition: 0.3s;
+}
