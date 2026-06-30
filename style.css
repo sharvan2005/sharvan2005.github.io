@@ -13,7 +13,7 @@ background: #222;
 }
 
 section {
-padding: 40px;
+padding: 90px 60px;
 border-bottom: 1px solid #333;
 }
 
@@ -21,8 +21,8 @@ h1, h2 {
 color: #f5c542;
 }
 .profile-pic {
-    width: 180px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     border-radius: 20px;
     border: 2px solid #f5c542;
     object-fit: cover;
@@ -159,4 +159,12 @@ header p {
     background: #f5c542;
     color: black;
     transition: 0.3s;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px;
+    flex-wrap: wrap;
 }
