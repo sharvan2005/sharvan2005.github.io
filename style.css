@@ -168,3 +168,32 @@ header p {
     padding: 80px;
     flex-wrap: wrap;
 }
+.contact-card {
+    background: #161616;
+    padding: 30px;
+    border-left: 4px solid #f4c542;
+    border-radius: 12px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.contact-card p {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #ddd;
+}
+
+.contact-card a {
+    color: #f4c542;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-card a:hover {
+    color: white;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
