@@ -212,3 +212,24 @@ header p {
 .project-links a:hover {
     text-decoration: underline;
 }
+.cert-card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 4px solid #f5c542;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-4px);
+}
+
+.cert-card h3 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.cert-card p {
+    color: #cfcfcf;
+}
